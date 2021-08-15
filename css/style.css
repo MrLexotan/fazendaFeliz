@@ -1,0 +1,118 @@
+
+.menu-bg {
+    background-color: #efc597;
+    padding: 20px;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    padding: 10px;
+    color: black;
+}
+
+.menu-nav a:hover{
+    color: #ca9168;
+}
+
+/*Intro*/
+
+.intro {
+    background: url("../img/home.jpg") center no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    width: 100%;
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #f7f7f7;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 1.25em;
+    color: #f7f7f7;
+    font-style: italic;
+}
+
+.intro p:before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 50px;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+}
+.intro p:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 50px;
+    background-color: #f7f7f7;
+    margin: 10px auto;
+}
+
+/*serviços*/
+
+.servicos-bg {
+    background-color: #F0D9C2;
+    padding: 60px 0;
+}
+
+.servicos-bg h2 {
+    text-align: center;
+    font-size: 2.25em;
+    padding-bottom: 10px;
+}
+
+.servicos-bg p {
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.servicos {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicos-items {
+    flex: 1 1 200px;
+    background-color: #F0C290;
+    margin: 10px 20px;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.servicos-items img {
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+
+
