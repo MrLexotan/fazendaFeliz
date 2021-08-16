@@ -1,4 +1,3 @@
-
 .menu-bg {
     background-color: #efc597;
     padding: 20px;
@@ -91,7 +90,9 @@
 
 .servicos-bg p {
     text-align: center;
-    max-width: 450px;
+    font-style: italic;
+    font-size: 1.25em;
+    max-width: 500px;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -112,6 +113,15 @@
     border-radius: 5px;
 }
 
+.servicos-items h3{
+    font-size: 2em;
+}
+
+.servicos-items p {
+    font-style: italic;
+    font-size: 1em;
+}
+
 .servicos-items img {
     padding-top: 20px;
     margin: 0 auto;
@@ -126,8 +136,9 @@
 }
 
 .animais p {
-    text-align: center;
-    max-width: 450px;
+    max-width: 500px;
+    font-style: italic;
+    font-size: 1.25em;
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -161,6 +172,7 @@
     text-align: center;
     margin-top: 80px;
     margin-bottom: 30px;
+    font-size: 2.25em;
 }
 
 
@@ -171,7 +183,14 @@
 }
 
 .time p {
-    max-width: 300px;
+    max-width: 500px;
+    font-style: italic;
+    font-size: 1.25em;
+    margin: 30px auto;
+}
+
+.time-container p {
+    max-width: 500px;
     font-style: italic;
     font-size: 1.25em;
     margin: 30px auto;
@@ -183,12 +202,78 @@
     text-align: center;
     margin-top: 60px;
     margin-bottom: 30px;
+    font-size: 2.25em;
 }
 
 .mapa div iframe {
     width: 100%;
 }
 
+/*contato*/
+
+.contato-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.contato-container h2 {
+    font-size: 2.25em;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endereco {
+    line-height: 50px;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.formu label {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.formu input, .formu textarea{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+}
+
+.form-email input {
+    margin-left: 33px;
+}
+
+.form-nome input {
+    margin-left: 37px;
+}
+
+.form-telefone input{
+    margin-left: 15px ;
+}
+
+.form-text textarea {
+    margin-left: 11px;
+}
+
+.btn {
+    border: 3px solid #000000;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:hover {
+    border-color: #efc597;
+    color: #efc597;
+}
 
 
 
