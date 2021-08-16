@@ -177,6 +177,18 @@
     margin: 30px auto;
 }
 
+/*Localização*/
+
+.mapa h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.mapa div iframe {
+    width: 100%;
+}
+
 
 
 
