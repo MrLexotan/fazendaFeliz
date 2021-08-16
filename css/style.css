@@ -2,6 +2,9 @@
 .menu-bg {
     background-color: #efc597;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .menu {
@@ -146,6 +149,34 @@
     margin-top: 30px;
 
 }
+
+/*Time*/
+
+.time-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.time-container h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+.time {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.time p {
+    max-width: 300px;
+    font-style: italic;
+    font-size: 1.25em;
+    margin: 30px auto;
+}
+
 
 
 
