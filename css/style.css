@@ -225,7 +225,7 @@
 
 .contato {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .endereco {
@@ -262,6 +262,11 @@
     margin-left: 11px;
 }
 
+.form-nome input::placeholder, .form-email input::placeholder, .form-telefone input::placeholder{
+    font-style: italic;
+    padding-left: 20px;
+}
+
 .btn {
     border: 3px solid #000000;
     padding: 15px;
@@ -275,5 +280,24 @@
     color: #efc597;
 }
 
+/*footer*/
 
+.footer-bg {
+    background-color: #efc597;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.footer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direitos {
+    font-weight: bold;
+    font-size: 1.25em;
+}
 

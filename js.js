@@ -12,3 +12,13 @@ function funcionario2() {
     document.querySelector('.time p').innerText = 'meu coração tem mania de amor, amor não é fácil de achar'
     setTimeout('funcionario1()', tempo)
 }
+
+const btn = document.querySelector('.footer-bg .github img')
+console.log(btn)
+btn.addEventListener('mouseover',  () => {
+    btn.src = 'img/github2.svg'
+} )
+
+btn.addEventListener('mouseout', () => {
+    btn.src = 'img/github.svg'
+})
